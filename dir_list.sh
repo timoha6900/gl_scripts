@@ -1,16 +1,12 @@
 #!/bin/bash
 
-#if [ $1 = "-r" ] 2> /dev/null; then
-#	ls -F | grep "./" | head -n 5 | sort -r
-#else
-#	ls -F | grep "./" | head -n 5
-#fi
-
 usage="Print first 5 catalogues in current directory.
 
-Where:
+Use dir_list.sh <arg>
+Where <arg>:
 	-r  	reverse sort
-	--help  call help\n"
+	--help  call help
+or nothing\n"
 
 case "$1" in
 	--help)
