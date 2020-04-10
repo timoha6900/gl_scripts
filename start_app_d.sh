@@ -7,7 +7,7 @@ Use start_app.sh <arg>
 Where <arg>:
 	<pkg>	package name
 	-list  	list of available packages on current device
-	-listl	list packages that have intent ...LAUNCHER 
+	-listl	list packages that can be start 
 	--help  call help\n"
 
 # Script variables
